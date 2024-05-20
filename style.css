@@ -46,7 +46,7 @@ nav .fa-bars{
 .container{
     height: 90vh;
     width: 100%;
-    background: radial-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(images/banner.jpg);
+    background: radial-gradient(rgba(255, 255, 255, 0.113), rgba(255, 255, 255, 0.113)), url(https://images.unsplash.com/photo-1615461066841-6116e61058f4?q=80&w=1883&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -81,4 +81,40 @@ nav .fa-bars{
 }
 .welcome p{
     color: #555;
+}
+
+/* Feel Free */
+
+.free{
+    margin-top: 90px;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+.col-2 img{
+    width: 100%;
+}
+.col-4{
+    flex-basis: 50%;
+}
+.col-4 h2{
+    font-size: 35px;
+    color: #06325E;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.col-4 h3{
+    font-size: 25px;
+    color: #555;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.col-4 p{
+    font-weight: 500;
+    color: #777;
+    margin-bottom: 60px;
+}
+.feel{
+    margin-left: 50px;
 }
