@@ -82,10 +82,38 @@ nav .fa-bars{
 .welcome p{
     color: #555;
 }
-
-/* 
-Footer */
-
+.small-container{
+    max-width: 1300px;
+    padding: 0 50px;
+    margin: 30px auto;
+    position: relative;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* Our mission */
+.col-5{
+    flex-basis: 40%;
+    text-align: justify;
+}
+.col-5 h1{
+    color: #2A166F;
+}
+.col-5 p{
+    color: #555;
+    font-weight: 600;
+}
+.col-6{
+    flex-basis: 50%;
+    min-width: 350px;
+}
+.col-6 img{
+    width: 100%;    
+}
+/* footer */
 .footer{
     background-color: #000;
     color: #8a8a8a;
