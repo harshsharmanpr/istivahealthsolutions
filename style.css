@@ -283,3 +283,155 @@ nav .fa-bars{
 .feel{
     margin-left: 50px;
 } 
+/* CSS FOR RESPONSIVENESS */
+@media only screen and (max-width :700px){
+    .logo img{
+        width: 180px;
+        position: fixed;
+        top: 4%;
+        left: 7%;
+    }
+    .navbar{
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        display: inline-block;
+        width: 100%;
+        padding: 100px 7% 0;
+        background-color: #fff;
+        text-align: right;
+        max-height: 110px;
+        overflow: hidden;
+        transition: transform 0.3s;
+    }
+    .container{
+        height: 60vh;
+    }
+    .nav-links li{
+        padding: 5px 0;
+        display: block;
+    }
+    nav .fa-bars{
+        position: fixed;
+        right: 7%;
+        top: 7%;
+        font-size: 30px;
+        display:block;
+    }
+    .hide-menu{
+        max-height: 350px;
+    }
+    .container h1{
+        font-size: 7vw;
+        padding-top: 200px;
+    }
+    .container p{
+        font-size: 3vw;
+    }
+    .title{
+        font-size: 6vw;
+    }
+    .col-1{
+        flex: 100%;
+    }
+    .col-m{
+        margin-top: 20px;
+        flex: 1;
+    }
+    .col-2{
+        flex: 1;
+    }
+    .col-3{
+        margin-top: 20px;
+        flex: 1;
+    }
+    .col-4{
+        flex: 1;
+    }
+    .feel{
+        margin-left: 0;
+        padding-left: 0;
+        text-align: justify;
+    }
+    .nav-links li:hover::after{
+        width: 0;
+    }
+    .col-4 h2{
+        font-size: 7vw;
+        margin-left: 0;
+    }.sub-title{
+        font-size: 7vw;
+    }
+    .product-range{
+        padding: 0px;
+        margin: 0;
+    }
+    .col-4 h3{
+        font-size: 4vw;
+        font-weight: 800;
+    }
+    .whatsapp a{
+        font-size: 13vw;
+    }
+    .footer-col-2,.footer-col-3,.footer-col-4{
+        flex: 1;
+    }
+    .footer-col-3,.footer-col-4{
+        margin-left: 20px;
+    }
+    .copyright{
+        margin: 0px 17px;
+        font-size: 4vw;
+        padding: 0 17px;
+    }
+}
+/*******CSS for responsiveness of About page********/
+@media only screen and (max-width :700px){
+    .about-container{
+        margin-top: 110px;
+        display: fixed;
+    }
+    .about-list{
+        margin-left: 10px;
+    }
+    .about-list h3{
+        font-size: 5vw;
+    }
+    .col-5 h1{
+        font-size: 7.5vw;
+    }
+    .col-5{
+        flex: 1;
+    }
+    .col-5 p{
+        padding-top: 30px;
+    }
+    .col-6 img{
+        width: 100%;
+        padding: 0 30px;
+        margin-top: 50px;
+    }
+    .col-8{
+        flex: 1;
+        text-align: justify;
+    }
+    .col-8 h2{
+        margin-top: 20px;
+        font-size: 8vw;
+    }
+    .col-8 p{
+        margin-top: 10px;
+    }
+    .certification h2{
+        font-size: 6vw;
+        text-align: center;
+    }
+    .col-9{
+        flex: 1;
+        text-align: justify;
+        padding-bottom: 30px;
+    }
+    .col-9 img{
+        padding-bottom: 20px;
+    }
+}
